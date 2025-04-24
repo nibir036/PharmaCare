@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PharmaCare - Cart</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">PharmaCare</a>
+            <ul class="nav-links">
+                <li class="nav-item"><a href="index.html">Home</a></li>
+                <li class="nav-item"><a href="medicines.html">Medicines</a></li>
+                <div class="right-buttons">
+                    <li id="profile-icon" class="profile-dropdown">
+                        <a href="#" class="profile-link">
+                            <img src="profile.png" width="40px" height="40px">
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#my-account">My Account</a></li>
+                            <li><a href="#my-orders">My Orders</a></li>
+                            <li><a href="#" id="logout">Logout</a></li>
+                        </ul>
+                    </li>
+                </div>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Updated Cart Section -->
+    <section id="cart" class="cart">
+        <div class="container">
+            <h2>Your Cart</h2>
+            <div id="cart-list" class="cart-list">
+                <!-- Cart items will be dynamically loaded here -->
+            </div>
+            <div class="cart-summary">
+                <h3>Total: <span id="cart-total">$0.00</span></h3>
+                <button id="checkout-btn" class="btn"><a href="checkout.html">Proceed to checkout</a></button>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="cart.js"></script>
+</body>
+</html>
