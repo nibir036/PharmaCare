@@ -1,4 +1,3 @@
-````markdown
 # PharmaCare 💊
 
 PharmaCare is a web-based pharmacy management system designed to streamline medicine inventory, customer interactions, and order processing. Built using HTML, CSS, JavaScript, PHP, and MySQL, this project aims to provide a simple yet efficient digital interface for small to medium-sized pharmacies.
@@ -32,7 +31,7 @@ To run this project on your local machine:
 
 ### 1. 🔽 Clone the Repository
 ```bash
-git clone https://github.com/your-username/pharmacare.git
+git clone https://github.com/nibir036/pharmacare.git
 ````
 
 ### 2. 🧰 Set Up XAMPP
