@@ -88,5 +88,5 @@ If you find any bugs or issues, please [open an issue](https://github.com/nibir0
 
 **Nibir Islam**
 BRAC University, CSE
-[LinkedIn](https://www.linkedin.com/in/yourprofile) | [GitHub](https://github.com/your-username)
+[LinkedIn](https://www.linkedin.com/in/nibir036) | [GitHub](https://github.com/nibir036)
 
